@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+   
+}
+
+body{
+    border: 5px solid black;
+    width: 100%;
+}
+.navbar{
+    /* text-decoration: none!important;   
+    background-color: #0085FE; */
+    padding: 1em;
+   
+}
+.navbar-brand{
+    color:#fff !important;
+    text-decoration: none!important;
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: auto;
+}
+.card-body{
+    font-size: 16px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    width: 26vw;
+  
+    align-content: flex-start;
+    height: auto;
+   
+}
